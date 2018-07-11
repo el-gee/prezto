@@ -11,3 +11,9 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
 fi
 
 # Customize to your needs...
+
+# FZF 
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+DOCKER_HOST=tcp://127.0.0.1:2375 
+export DOCKER_HOST
