@@ -13,7 +13,6 @@ fi
 # Customize to your needs...
 
 # FZF 
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-
-DOCKER_HOST=tcp://127.0.0.1:2375 
-export DOCKER_HOST
+# [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+# autoload -U compinit && compinit
+# source <(helm completion zsh)

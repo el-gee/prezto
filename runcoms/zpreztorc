@@ -221,6 +221,8 @@ zstyle ':prezto:module:syntax-highlighting' highlighters \
 zstyle ':prezto:module:tmux:session' name 'Work work'
 
 alias vim=nvim
+alias v=nvim
+alias k=kubectl
 
 #
 # Utility
